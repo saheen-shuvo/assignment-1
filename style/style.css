@@ -1,4 +1,96 @@
-h1{
-    color: red;
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* Banner Style Starts Here */
+
+.banner-container{
+    width: 1440px;
+    height: 650px;
+    margin: 0 auto;
+    background-image: url("/style/Hero-bg.png");
+    background-repeat: no-repeat;
+    border: 2px solid red;
+}
+.banner-content{
+    width: 998px;
+    height: 541px;
+    margin: 0 auto;
+    margin-top: 45px;
+    border: 2px solid red;
+}
+.first-img{
+    width: 173.03px;
+    height: 168.9px;
+    margin-left: 400px;
+    margin-top: 20px;
+    
+}
+.near-future{
     text-align: center;
+    font-family: "Outfit", sans-serif;
+    font-size: 40px;
+}
+.strive-innovate{
+    text-align: center;
+    font-family: "Outfit", sans-serif;
+    font-weight: 300;
+    font-size: 15px;
+    padding-top: 10px;
+}
+.contact-me{
+    width: 144px;
+    height: 45px;
+    border-radius: 8px;
+    background: rgb(13, 19, 33);
+    margin-left: 415px;
+    margin-top: 60px;
+    border: 0;
+}
+.contact-text{
+    font-family: "Outfit", sans-serif;
+    color: white;
+    font-size: 15px;
+}
+
+/* Why Web Dev Style Starts */
+
+.why-web-container{
+    width: 1140px;
+    height: 1393px;
+    margin: 0 auto;
+    border: 2px solid red;
+    margin-top: 50px;
+}
+.why-web-content{
+    width: 946px;
+    height: 1233px;
+    border: 2px solid green;
+    margin-left: 90px;
+    margin-top: 75px;
+}
+.why-web-text{
+    font-family: "Outfit", sans-serif;
+    color: rgb(255, 0, 0);
+    font-size: 32px;
+    text-align: center;
+}
+.importance-web{
+    font-family: "Outfit", sans-serif;
+    color: rgb(0, 0, 0);
+    font-size: 12px;
+    text-align: center;
+    font-weight: 300;
+    padding-top: 10px;
+}
+.first-box{
+    width: 850px;
+    height: 240px;
+    margin: 0 auto;
+    border: 2px solid rgb(225, 0, 255);
+    margin-top: 48px;
+}
 }
