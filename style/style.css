@@ -11,7 +11,7 @@
     width: 1440px;
     height: 650px;
     margin: 0 auto;
-    background-image: url("/style/Hero-bg.png");
+    background-image: url("../style/Hero-bg.png");
     background-repeat: no-repeat;
 }
 .banner-content{
