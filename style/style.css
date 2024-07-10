@@ -181,7 +181,6 @@
     height: 775px;
     margin: 0 auto;
     margin-top: 88px;
-    border: 2px solid red;
 }
 .inspiration-text{
     text-align: center;
@@ -209,4 +208,82 @@
     height: 555px;
     margin: 0 auto;
     border-radius: 8px;
+}
+
+/*My Current Target Starts Here */
+
+.current-target-container{
+    width: 1140px;
+    height: 465px;
+    margin: 0 auto;
+    margin-top: 88px;
+}
+.skills-container{
+    width: 1140px;
+    height: 305px;
+    margin: 0 auto;
+    margin-top: 55px;
+    display: flex;
+    gap: 20px;
+    text-align: center;
+    align-items: center;
+    align-content: center;
+}
+.skills{
+    border-radius: 10px;
+    margin: 0 auto;
+    padding: 130px 150px;
+    text-align: center;
+    margin-top: 0;
+}
+.skills-container{
+    display: flex;
+    gap: 54px;
+}
+.skill-first{
+    width: 360px;
+    height: 260px;
+    padding: 30px;
+    border-radius: 8px;
+    background-color: rgba(255, 76, 30, 0.05);
+}
+.skill-second{
+    width: 360px;
+    height: 260px;
+    padding: 30px;
+    border-radius: 8px;
+    background-color: rgba(0, 76, 232, 0.05);
+}
+.skill-third{
+    width: 360px;
+    height: 260px;
+    padding: 30px;
+    border-radius: 8px;
+    background-color: rgba(255, 223, 0, 0.05);
+}
+.skill-title{
+    text-align: left;
+    font-family: "Outfit", sans-serif;
+    font-weight: bold;
+    padding-top: 20px;
+    color: black;
+}
+.logo{
+    display: flex;
+    justify-content: left;
+}
+.skill-description{
+    text-align: left;
+    font-size: 14px;
+    font-weight: 300;
+    padding-bottom: 40px;
+    padding-top: 10px;
+    font-family: "Outfit", sans-serif;
+}
+.learn-anchor{
+    font-family: "Outfit", sans-serif;
+    font-weight: bold;
+    padding-top: 90px;
+    color:rgb(37, 37, 37);
+    padding-right: 195px;
 }
