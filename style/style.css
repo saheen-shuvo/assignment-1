@@ -287,3 +287,101 @@
     color:rgb(37, 37, 37);
     padding-right: 195px;
 }
+
+/* <!-- Support Section Starts Here --> */
+
+.support-section-container{
+        width: 1140px;
+        height: 313px;
+        margin: 0 auto;
+        border: 0;
+        margin-top: 50px;
+        border-radius: 8px;
+        display: flex;
+        align-items: center;
+        background-image: url("../style/handshake.jpg");
+        background-position: center;
+        background-color: rgb(54, 54, 54);
+        background-blend-mode: overlay;
+}
+.support-content{
+    width: 1044px;
+    height: 185px;
+    margin: 0 auto;
+    border: 0;
+}
+.support-content, h1{
+    text-align: center;
+    font-family: "Outfit", sans-serif;
+    color: white;
+}
+#immediate-text{
+    text-align: center;
+    font-family: "Outfit", sans-serif;
+    color: rgb(255, 255, 255);
+    font-weight: 100;
+    font-size: 15px;
+}
+.support-box{
+    width: 684px;
+    height: 67px;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    gap: 15px;
+}
+.namebox{
+    width: 527px;
+    height: 57px;
+    border: 0;
+    border-radius: 5px;
+    padding-left: 20px;
+}
+.support-submit{
+    width: 120px;
+    height: 57px;
+    border: 0;
+    border-radius: 5px;
+}
+.idk{
+    font-family: "Outfit", sans-serif;
+    color: rgb(0, 0, 0);
+    font-weight: 300;
+    font-size: 5px;
+}
+
+/* Footer style starts */
+
+.footer-container{
+    width: 1440px;
+    height: 100px;
+    margin: 0 auto;
+    border: 0;
+    margin-top: 50px;
+    margin-bottom: 200px;
+    background-color: rgba(13, 19, 33, 0.03);
+    display: flex;
+    align-items: center;
+}
+.footer-content{
+    width: 1140px;
+    height: 36px;
+    margin: 0 auto;
+    border: 0;
+    display: flex;
+    gap: 550px;
+}
+.footer-text, h3{
+    font-family: "Outfit", sans-serif;
+    color: rgb(0, 0, 0);
+    font-weight: 600;
+    font-size: 20px;
+    padding-top: 3px;
+}
+.footer-icons{
+    display: flex;
+    gap: 20px;
+}
